@@ -14,10 +14,15 @@ __pycache__/
 *.tmp
 *.bak
 
-# Dados sensíveis e outputs gerados
-data/interim/
+# Dados brutos (NUNCA sobe)
+data/raw/
+
+# Dados processados (são regeneráveis, não sobem)
 data/processed/
-data/outputs/
+
+# Dados intermediários temporários (permite o DuckDB subir, mas ignora lixos temporários)
+data/interim/*.tmp
+data/interim/*.bak
 
 # Arquivos de cache
 *.sqlite3
@@ -34,7 +39,7 @@ data/outputs/
 .DS_Store
 Thumbs.db
 
-# Relatórios gerados
+# Relatórios gerados (opcional)
 reports/figures/
 reports/documents/
 
