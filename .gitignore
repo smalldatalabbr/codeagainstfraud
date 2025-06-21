@@ -1,0 +1,42 @@
+# Ambiente virtual
+.venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Dados sensíveis e outputs gerados
+data/interim/
+data/processed/
+data/outputs/
+
+# Arquivos de cache
+*.sqlite3
+*.db
+*.h5
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Relatórios gerados
+reports/figures/
+reports/documents/
+
+# Ambiente JupyterLab
+lab-workspace.json
