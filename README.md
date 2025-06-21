@@ -151,7 +151,7 @@ python pipelines/data_preparation.py
 **Jhonathan Domingues**  
 Criador do Small Data Lab e Cientista de Dados em Transição  
 
-[🔗 LinkedIn](https://www.linkedin.com/in/jhonathandomingues | [🌐 Small Data Lab](https://smalldatalab.com.br)  
+[🔗 LinkedIn](https://www.linkedin.com/in/jhonathandomingues) | [🌐 Small Data Lab](https://smalldatalab.com.br)  
 
 ---
 
